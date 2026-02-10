@@ -84,7 +84,6 @@ quizdrop/
 ├── LICENSE
 └── samples/
     ├── general-knowledge.json       # 100 GK questions for middle schoolers
-    └── mini-med-school.json         # 100 medical questions from Outschool lessons
 ```
 
 ## License
