@@ -471,6 +471,98 @@
   }
   .shuffle-toggle input { accent-color: var(--primary); width: 16px; height: 16px; }
 
+  /* Score History */
+  .history-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .history-header h3 {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .history-header h3 .icon { font-size: 1.2rem; }
+  .clear-history-btn {
+    background: none;
+    border: none;
+    color: var(--text-light);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.15s;
+  }
+  .clear-history-btn:hover { background: var(--danger-light); color: var(--danger); }
+
+  .history-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .history-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    transition: background 0.15s;
+  }
+  .history-item:hover { background: #f8fafc; }
+
+  .history-score-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .history-details {
+    flex: 1;
+    min-width: 0;
+  }
+  .history-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .history-meta {
+    font-size: 0.78rem;
+    color: var(--text-light);
+    margin-top: 2px;
+  }
+
+  .history-bar-wrap {
+    width: 80px;
+    flex-shrink: 0;
+  }
+  .history-bar {
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .history-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.5s;
+  }
+
+  .history-empty {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-light);
+    font-size: 0.9rem;
+  }
+
   /* Responsive */
   @media (max-width: 600px) {
     .container { padding: 12px; }
@@ -481,6 +573,7 @@
     .stat-card .value { font-size: 1.2rem; }
     .question-text { font-size: 1.05rem; }
     .card { padding: 20px; }
+    .history-bar-wrap { width: 60px; }
   }
 </style>
 </head>
@@ -494,6 +587,14 @@
 
   <!-- SETUP SCREEN -->
   <div id="setupScreen" class="screen active">
+    <div class="card" id="historyCard" style="display:none;">
+      <div class="history-header">
+        <h3><span class="icon">&#128200;</span> Recent Scores</h3>
+        <button class="clear-history-btn" onclick="clearScoreHistory()">Clear History</button>
+      </div>
+      <div class="history-list" id="historyList"></div>
+    </div>
+
     <div class="card">
       <div class="setup-section">
         <h3><span class="icon">&#128228;</span> Load Questions</h3>
@@ -647,6 +748,8 @@ let selectedTopics = new Set();
 document.addEventListener('DOMContentLoaded', () => {
   const fileInput = document.getElementById('fileInput');
   const dropArea = document.getElementById('dropArea');
+
+  renderScoreHistory();
 
   fileInput.addEventListener('change', handleFile);
   dropArea.addEventListener('dragover', e => {
@@ -974,6 +1077,8 @@ function showResults() {
       </div>`;
   });
 
+  saveScore(pct, correct, total, elapsed);
+
   showScreen('resultsScreen');
 }
 
@@ -988,6 +1093,66 @@ function retryWrong() {
   renderQuestion();
 }
 
+// ===== Score History =====
+function saveScore(pct, correct, total, elapsed) {
+  const title = document.getElementById('appTitle').textContent || 'QuizDrop';
+  const entry = {
+    date: new Date().toISOString(),
+    title: title,
+    score: pct,
+    correct: correct,
+    total: total,
+    time: elapsed
+  };
+  let history = [];
+  try { history = JSON.parse(localStorage.getItem('quizdrop_scores') || '[]'); } catch {}
+  history.unshift(entry);
+  history = history.slice(0, 5);
+  localStorage.setItem('quizdrop_scores', JSON.stringify(history));
+}
+
+function renderScoreHistory() {
+  let history = [];
+  try { history = JSON.parse(localStorage.getItem('quizdrop_scores') || '[]'); } catch {}
+  const card = document.getElementById('historyCard');
+  const list = document.getElementById('historyList');
+
+  if (!history.length) {
+    card.style.display = 'none';
+    return;
+  }
+
+  card.style.display = '';
+  list.innerHTML = '';
+  history.forEach(entry => {
+    const d = new Date(entry.date);
+    const dateStr = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    const timeStr = d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+    const mins = Math.floor(entry.time / 60);
+    const secs = entry.time % 60;
+    const colorClass = entry.score >= 90 ? 'score-excellent' : entry.score >= 70 ? 'score-good' : entry.score >= 50 ? 'score-okay' : 'score-needs-work';
+    const barColor = entry.score >= 90 ? 'var(--success)' : entry.score >= 70 ? 'var(--primary)' : entry.score >= 50 ? 'var(--warning)' : 'var(--danger)';
+
+    const item = document.createElement('div');
+    item.className = 'history-item';
+    item.innerHTML = `
+      <div class="history-score-circle ${colorClass}">${entry.score}%</div>
+      <div class="history-details">
+        <div class="history-title">${entry.title}</div>
+        <div class="history-meta">${dateStr} ${timeStr} &middot; ${entry.correct}/${entry.total} correct &middot; ${mins}:${secs.toString().padStart(2, '0')}</div>
+      </div>
+      <div class="history-bar-wrap">
+        <div class="history-bar"><div class="history-bar-fill" style="width:${entry.score}%; background:${barColor}"></div></div>
+      </div>`;
+    list.appendChild(item);
+  });
+}
+
+function clearScoreHistory() {
+  localStorage.removeItem('quizdrop_scores');
+  renderScoreHistory();
+}
+
 // ===== Screens =====
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -997,6 +1162,7 @@ function showScreen(id) {
 function showSetup() {
   showScreen('setupScreen');
   if (allQuestions.length) buildTopicGrid();
+  renderScoreHistory();
 }
 </script>
 </body>
