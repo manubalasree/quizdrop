@@ -41,15 +41,17 @@ Create a `.json` file in this format:
 
 ```json
 {
-  "title": "My Quiz",
-  "description": "Optional subtitle shown in the header",
+  "title": "Quiz Title",
+  "description": "Short subtitle",
+  "author": "Your Name",
   "questions": [
     {
-      "question": "What organ pumps blood through the body?",
-      "options": ["Liver", "Heart", "Kidney", "Lung"],
-      "answer": 1,
-      "topic": "Human Body",
-      "explanation": "The heart is a muscular organ that pumps blood through the circulatory system."
+      "id": 1,
+      "question": "Question text here",
+      "options": ["Choice A", "Choice B", "Choice C", "Choice D"],
+      "answer": 0,
+      "topic": "Topic Name",
+      "explanation": "Brief explanation of the correct answer"
     }
   ]
 }
