@@ -1,0 +1,807 @@
+{
+  "title": "General Knowledge Quiz",
+  "description": "100 questions across science, history, geography, and more",
+  "author": "Manu Balasree",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the smallest unit of life?",
+      "options": ["Atom", "Cell", "Molecule", "Organism"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "The cell is the basic building block of all living things and the smallest unit that can perform life functions."
+    },
+    {
+      "id": 2,
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "answer": 2,
+      "topic": "Science",
+      "explanation": "Plants use carbon dioxide during photosynthesis to make food and release oxygen as a byproduct."
+    },
+    {
+      "id": 3,
+      "question": "What is the pH of pure water?",
+      "options": ["5", "7", "9", "11"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "A pH of 7 indicates a neutral substance; anything below is acidic and above is basic."
+    },
+    {
+      "id": 4,
+      "question": "Which state of matter has a definite shape and volume?",
+      "options": ["Gas", "Liquid", "Solid", "Plasma"],
+      "answer": 2,
+      "topic": "Science",
+      "explanation": "Solids have fixed shape and volume because their particles are tightly packed and don't move freely."
+    },
+    {
+      "id": 5,
+      "question": "What do we call the process by which water changes to vapor?",
+      "options": ["Evaporation", "Condensation", "Precipitation", "Sublimation"],
+      "answer": 0,
+      "topic": "Science",
+      "explanation": "Evaporation occurs when liquid water is heated and turns into water vapor that rises into the atmosphere."
+    },
+    {
+      "id": 6,
+      "question": "Which element has the chemical symbol 'Au'?",
+      "options": ["Silver", "Aluminum", "Gold", "Argon"],
+      "answer": 2,
+      "topic": "Science",
+      "explanation": "Gold (Au) comes from the Latin word 'aurum' and has been valued for thousands of years."
+    },
+    {
+      "id": 7,
+      "question": "What type of animal is a dolphin?",
+      "options": ["Fish", "Amphibian", "Mammal", "Reptile"],
+      "answer": 2,
+      "topic": "Science",
+      "explanation": "Dolphins are mammals because they breathe air, have warm blood, and nurse their young with milk."
+    },
+    {
+      "id": 8,
+      "question": "How many bones does an adult human have?",
+      "options": ["186", "206", "226", "246"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "Adults have 206 bones; babies are born with about 270 bones that fuse together as they grow."
+    },
+    {
+      "id": 9,
+      "question": "What is the powerhouse of the cell called?",
+      "options": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "Mitochondria produce energy (ATP) for cells to use, making it essential for cell function."
+    },
+    {
+      "id": 10,
+      "question": "What is the speed of light?",
+      "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "100,000 km/s"],
+      "answer": 0,
+      "topic": "Science",
+      "explanation": "Light travels at approximately 300,000 kilometers per second, the fastest speed in the universe."
+    },
+    {
+      "id": 11,
+      "question": "What percentage of Earth's atmosphere is oxygen?",
+      "options": ["11%", "21%", "31%", "41%"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "Oxygen makes up about 21% of Earth's atmosphere, with nitrogen comprising about 78%."
+    },
+    {
+      "id": 12,
+      "question": "Which process do plants use to convert sunlight into food?",
+      "options": ["Respiration", "Photosynthesis", "Fermentation", "Decomposition"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "Photosynthesis uses sunlight, water, and carbon dioxide to create glucose and oxygen for the plant."
+    },
+    {
+      "id": 13,
+      "question": "What is the SI unit of force?",
+      "options": ["Joule", "Newton", "Watt", "Pascal"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "The Newton (N) is the standard unit of force in physics, named after Sir Isaac Newton."
+    },
+    {
+      "id": 14,
+      "question": "What do you call a reaction that releases heat?",
+      "options": ["Endothermic", "Exothermic", "Isothermic", "Adiabatic"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "Exothermic reactions release energy as heat, like burning wood or combustion in a car engine."
+    },
+    {
+      "id": 15,
+      "question": "What is the basic unit of heredity in living organisms?",
+      "options": ["Chromosome", "Gene", "Protein", "DNA strand"],
+      "answer": 1,
+      "topic": "Science",
+      "explanation": "Genes are segments of DNA that carry instructions for traits like eye color and height."
+    },
+    {
+      "id": 16,
+      "question": "How many moons does Jupiter have?",
+      "options": ["16", "42", "79", "95"],
+      "answer": 2,
+      "topic": "Space & Astronomy",
+      "explanation": "Jupiter has at least 79 known moons, more than any other planet in our solar system."
+    },
+    {
+      "id": 17,
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Saturn", "Neptune", "Jupiter", "Uranus"],
+      "answer": 2,
+      "topic": "Space & Astronomy",
+      "explanation": "Jupiter is a gas giant with a mass greater than all other planets combined."
+    },
+    {
+      "id": 18,
+      "question": "How long does it take Earth to orbit the Sun?",
+      "options": ["365 days", "400 days", "250 days", "450 days"],
+      "answer": 0,
+      "topic": "Space & Astronomy",
+      "explanation": "Earth's orbital period is approximately 365.25 days, which is why we have leap years."
+    },
+    {
+      "id": 19,
+      "question": "What is the Sun primarily made of?",
+      "options": ["Helium", "Hydrogen", "Iron", "Carbon"],
+      "answer": 1,
+      "topic": "Space & Astronomy",
+      "explanation": "The Sun is about 75% hydrogen and 25% helium by mass, held together by gravity."
+    },
+    {
+      "id": 20,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Mercury", "Saturn"],
+      "answer": 1,
+      "topic": "Space & Astronomy",
+      "explanation": "Mars appears reddish due to iron oxide (rust) on its surface, making it distinctive in the night sky."
+    },
+    {
+      "id": 21,
+      "question": "What is an asteroid?",
+      "options": ["A small comet", "A piece of rock orbiting the Sun", "A falling meteor", "A type of planet"],
+      "answer": 1,
+      "topic": "Space & Astronomy",
+      "explanation": "Asteroids are rocky objects in space, mostly found between Mars and Jupiter in the asteroid belt."
+    },
+    {
+      "id": 22,
+      "question": "How many stars can typically be seen with the naked eye on a clear night?",
+      "options": ["500", "2,000", "5,000", "10,000"],
+      "answer": 2,
+      "topic": "Space & Astronomy",
+      "explanation": "On a dark night away from city lights, humans can see approximately 5,000 stars with the naked eye."
+    },
+    {
+      "id": 23,
+      "question": "What is a light-year?",
+      "options": ["The time it takes light to travel one year", "The distance light travels in one year", "A year on a light planet", "A measurement of brightness"],
+      "answer": 1,
+      "topic": "Space & Astronomy",
+      "explanation": "A light-year is the distance light travels in one year, used to measure vast distances in space."
+    },
+    {
+      "id": 24,
+      "question": "Which planet has the most visible rings?",
+      "options": ["Jupiter", "Uranus", "Neptune", "Saturn"],
+      "answer": 3,
+      "topic": "Space & Astronomy",
+      "explanation": "Saturn's spectacular ring system is made of ice and rock particles and is visible from Earth."
+    },
+    {
+      "id": 25,
+      "question": "What causes the seasons on Earth?",
+      "options": ["Distance from the Sun", "Earth's tilt and orbit", "Solar flares", "Atmospheric changes"],
+      "answer": 1,
+      "topic": "Space & Astronomy",
+      "explanation": "Earth's 23.5-degree tilt means different parts receive more or less direct sunlight throughout the year."
+    },
+    {
+      "id": 26,
+      "question": "What is the capital of France?",
+      "options": ["Lyon", "Paris", "Marseille", "Nice"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "Paris is France's capital and largest city, located on the Seine River in northern France."
+    },
+    {
+      "id": 27,
+      "question": "Which is the longest river in the world?",
+      "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "The Nile River in Africa is over 6,650 kilometers long and flows through eleven countries."
+    },
+    {
+      "id": 28,
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara", "Gobi", "Kalahari", "Arabian"],
+      "answer": 0,
+      "topic": "World Geography",
+      "explanation": "The Sahara Desert in Africa covers about 9 million square kilometers across North Africa."
+    },
+    {
+      "id": 29,
+      "question": "Which country is home to the Great Barrier Reef?",
+      "options": ["Indonesia", "Philippines", "Australia", "New Zealand"],
+      "answer": 2,
+      "topic": "World Geography",
+      "explanation": "The Great Barrier Reef, off the coast of Australia, is the world's largest coral reef system."
+    },
+    {
+      "id": 30,
+      "question": "What is the capital of Japan?",
+      "options": ["Osaka", "Tokyo", "Kyoto", "Yokohama"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "Tokyo is Japan's capital and the world's largest metropolitan area by population."
+    },
+    {
+      "id": 31,
+      "question": "Which mountain range contains Mount Everest?",
+      "options": ["Rocky Mountains", "Andes", "Himalayas", "Alps"],
+      "answer": 2,
+      "topic": "World Geography",
+      "explanation": "The Himalayas, shared by several Asian countries, contain the world's tallest mountains."
+    },
+    {
+      "id": 32,
+      "question": "How many continents are there?",
+      "options": ["5", "6", "7", "8"],
+      "answer": 2,
+      "topic": "World Geography",
+      "explanation": "There are 7 continents: Africa, Antarctica, Asia, Europe, North America, Oceania, and South America."
+    },
+    {
+      "id": 33,
+      "question": "What is the capital of Egypt?",
+      "options": ["Alexandria", "Cairo", "Giza", "Aswan"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "Cairo, Egypt's capital and largest city, sits on the Nile River and houses over 20 million people."
+    },
+    {
+      "id": 34,
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "answer": 3,
+      "topic": "World Geography",
+      "explanation": "The Pacific Ocean covers about 46% of the world's ocean surface and 32% of Earth's total surface."
+    },
+    {
+      "id": 35,
+      "question": "What is the capital of Brazil?",
+      "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+      "answer": 2,
+      "topic": "World Geography",
+      "explanation": "Brasília, built in 1960, was designed as a planned capital city in central Brazil."
+    },
+    {
+      "id": 36,
+      "question": "Which country has the most population?",
+      "options": ["India", "United States", "Indonesia", "Pakistan"],
+      "answer": 0,
+      "topic": "World Geography",
+      "explanation": "India recently surpassed China to become the world's most populous country with over 1.4 billion people."
+    },
+    {
+      "id": 37,
+      "question": "In what year did Columbus sail to the Americas?",
+      "options": ["1492", "1520", "1610", "1607"],
+      "answer": 0,
+      "topic": "World History",
+      "explanation": "Columbus sailed in 1492, marking the beginning of European exploration and colonization of the Americas."
+    },
+    {
+      "id": 38,
+      "question": "Which empire built the Great Wall of China?",
+      "options": ["Han Dynasty", "Ming Dynasty", "Zhou Dynasty", "Qin Dynasty"],
+      "answer": 1,
+      "topic": "World History",
+      "explanation": "The Ming Dynasty (1368-1644) built most of the Great Wall as it stands today."
+    },
+    {
+      "id": 39,
+      "question": "In what year did the Titanic sink?",
+      "options": ["1912", "1905", "1920", "1898"],
+      "answer": 0,
+      "topic": "World History",
+      "explanation": "The Titanic sank in 1912 after hitting an iceberg on its maiden voyage across the Atlantic."
+    },
+    {
+      "id": 40,
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "George Washington", "John Adams", "James Madison"],
+      "answer": 1,
+      "topic": "World History",
+      "explanation": "George Washington served as president from 1789-1797 and is often called the 'Father of His Country.'"
+    },
+    {
+      "id": 41,
+      "question": "In what year did the American Revolution begin?",
+      "options": ["1775", "1776", "1781", "1783"],
+      "answer": 0,
+      "topic": "World History",
+      "explanation": "The American Revolution began in 1775 with the Battles of Lexington and Concord."
+    },
+    {
+      "id": 42,
+      "question": "Which ancient wonder of the world was built in Egypt?",
+      "options": ["Hanging Gardens of Babylon", "Great Pyramid of Giza", "Colossus of Rhodes", "Lighthouse of Alexandria"],
+      "answer": 1,
+      "topic": "World History",
+      "explanation": "The Great Pyramid of Giza is the only surviving ancient wonder and was built as a tomb for Pharaoh Khufu."
+    },
+    {
+      "id": 43,
+      "question": "What was the primary cause of World War I?",
+      "options": ["Economic inequality", "Archduke Franz Ferdinand's assassination", "Colonial expansion", "Religious conflicts"],
+      "answer": 1,
+      "topic": "World History",
+      "explanation": "The assassination of Archduke Franz Ferdinand in 1914 triggered the alliance system that led to war."
+    },
+    {
+      "id": 44,
+      "question": "In what year did World War II end?",
+      "options": ["1943", "1944", "1945", "1946"],
+      "answer": 2,
+      "topic": "World History",
+      "explanation": "World War II ended in 1945 with Japan's surrender in September, following Germany's surrender in May."
+    },
+    {
+      "id": 45,
+      "question": "Which ancient civilization built the pyramids?",
+      "options": ["Mesopotamians", "Greeks", "Egyptians", "Persians"],
+      "answer": 2,
+      "topic": "World History",
+      "explanation": "Ancient Egyptians built pyramids as monumental tombs, with construction beginning around 2600 BCE."
+    },
+    {
+      "id": 46,
+      "question": "Who invented the printing press?",
+      "options": ["Leonardo da Vinci", "Johannes Gutenberg", "Michelangelo", "Galileo Galilei"],
+      "answer": 1,
+      "topic": "World History",
+      "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440, revolutionizing information sharing."
+    },
+    {
+      "id": 47,
+      "question": "What was the main cause of the French Revolution?",
+      "options": ["Invasion by England", "Economic crisis and inequality", "Religious persecution", "Military defeat"],
+      "answer": 1,
+      "topic": "World History",
+      "explanation": "Economic crisis, food shortages, and widespread inequality led to the French Revolution beginning in 1789."
+    },
+    {
+      "id": 48,
+      "question": "How many chambers does a human heart have?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2,
+      "topic": "Human Body",
+      "explanation": "The heart has four chambers: two upper atria and two lower ventricles that pump blood throughout the body."
+    },
+    {
+      "id": 49,
+      "question": "What is the largest organ in the human body?",
+      "options": ["Heart", "Brain", "Skin", "Liver"],
+      "answer": 2,
+      "topic": "Human Body",
+      "explanation": "Skin is the body's largest organ by surface area, covering about 2 square meters and protecting internal organs."
+    },
+    {
+      "id": 50,
+      "question": "How many teeth does an adult human typically have?",
+      "options": ["28", "32", "36", "40"],
+      "answer": 1,
+      "topic": "Human Body",
+      "explanation": "Adults have 32 teeth including incisors, canines, premolars, and molars for biting and chewing."
+    },
+    {
+      "id": 51,
+      "question": "What does the pancreas produce?",
+      "options": ["Enzymes and insulin", "Bile", "Acid", "Antibodies"],
+      "answer": 0,
+      "topic": "Human Body",
+      "explanation": "The pancreas produces insulin to regulate blood sugar and digestive enzymes to break down food."
+    },
+    {
+      "id": 52,
+      "question": "Which part of your brain controls balance and coordination?",
+      "options": ["Cerebrum", "Cerebellum", "Brainstem", "Thalamus"],
+      "answer": 1,
+      "topic": "Human Body",
+      "explanation": "The cerebellum, located at the base of the brain, controls movement, balance, and muscle coordination."
+    },
+    {
+      "id": 53,
+      "question": "How many chambers does the human brain have?",
+      "options": ["2", "3", "4", "6"],
+      "answer": 2,
+      "topic": "Human Body",
+      "explanation": "The brain contains four ventricles that produce and circulate cerebrospinal fluid."
+    },
+    {
+      "id": 54,
+      "question": "What is the smallest bone in the human body?",
+      "options": ["Stapes", "Incus", "Malleus", "Fibula"],
+      "answer": 0,
+      "topic": "Human Body",
+      "explanation": "The stapes bone in the middle ear is the smallest bone, about 3 millimeters long."
+    },
+    {
+      "id": 55,
+      "question": "How many major blood vessels carry blood away from the heart?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 2,
+      "topic": "Human Body",
+      "explanation": "The aorta carries oxygen-rich blood, while the pulmonary artery carries oxygen-poor blood to the lungs."
+    },
+    {
+      "id": 56,
+      "question": "What is the main function of white blood cells?",
+      "options": ["Transport oxygen", "Clot blood", "Fight infections", "Store energy"],
+      "answer": 2,
+      "topic": "Human Body",
+      "explanation": "White blood cells are part of the immune system and protect the body by destroying bacteria and viruses."
+    },
+    {
+      "id": 57,
+      "question": "What is the largest blood vessel in the human body?",
+      "options": ["Pulmonary artery", "Aorta", "Vena cava", "Carotid artery"],
+      "answer": 1,
+      "topic": "Human Body",
+      "explanation": "The aorta is the largest artery, carrying oxygen-rich blood from the heart to the rest of the body."
+    },
+    {
+      "id": 58,
+      "question": "What animal is the fastest land animal?",
+      "options": ["Lion", "Antelope", "Cheetah", "Greyhound"],
+      "answer": 2,
+      "topic": "Animals & Nature",
+      "explanation": "Cheetahs can run at speeds up to 120 kilometers per hour, making them nature's fastest land sprinter."
+    },
+    {
+      "id": 59,
+      "question": "Which animal is the largest living creature?",
+      "options": ["African elephant", "Blue whale", "Giraffe", "Hippopotamus"],
+      "answer": 1,
+      "topic": "Animals & Nature",
+      "explanation": "Blue whales are the largest animals to ever exist, weighing up to 200 tons."
+    },
+    {
+      "id": 60,
+      "question": "How many eyes does a honeybee have?",
+      "options": ["2", "3", "5", "7"],
+      "answer": 2,
+      "topic": "Animals & Nature",
+      "explanation": "Honeybees have five eyes: three small eyes on top of their head and two large compound eyes in front."
+    },
+    {
+      "id": 61,
+      "question": "What do herbivores eat?",
+      "options": ["Meat", "Plants", "Both plants and meat", "Insects only"],
+      "answer": 1,
+      "topic": "Animals & Nature",
+      "explanation": "Herbivores are animals that eat only plants, like cows, deer, and rabbits."
+    },
+    {
+      "id": 62,
+      "question": "How many legs does an insect have?",
+      "options": ["4", "6", "8", "10"],
+      "answer": 1,
+      "topic": "Animals & Nature",
+      "explanation": "All insects have exactly six legs, which is one way to classify them in the class Insecta."
+    },
+    {
+      "id": 63,
+      "question": "What is the only mammal that can truly fly?",
+      "options": ["Flying squirrel", "Flying fish", "Bat", "Flying lemur"],
+      "answer": 2,
+      "topic": "Animals & Nature",
+      "explanation": "Bats are the only mammals with wings that allow true flight, using echolocation to navigate."
+    },
+    {
+      "id": 64,
+      "question": "Which animal has the longest neck?",
+      "options": ["Ostrich", "Llama", "Giraffe", "Emu"],
+      "answer": 2,
+      "topic": "Animals & Nature",
+      "explanation": "Giraffes can have necks up to 2 meters long, allowing them to eat leaves high in trees."
+    },
+    {
+      "id": 65,
+      "question": "How many chambers does a fish's heart have?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "topic": "Animals & Nature",
+      "explanation": "Fish hearts have two chambers compared to four in mammals, reflecting their simpler circulatory system."
+    },
+    {
+      "id": 66,
+      "question": "What is the primary habitat of a penguin?",
+      "options": ["Tropical rainforest", "Arctic region", "Antarctic region", "Desert"],
+      "answer": 2,
+      "topic": "Animals & Nature",
+      "explanation": "Penguins live in the Southern Hemisphere, with most species living in Antarctica or nearby waters."
+    },
+    {
+      "id": 67,
+      "question": "What is 25% of 200?",
+      "options": ["25", "50", "75", "100"],
+      "answer": 1,
+      "topic": "Math & Logic",
+      "explanation": "To find 25% of 200, multiply 200 by 0.25, which equals 50."
+    },
+    {
+      "id": 68,
+      "question": "What is the square root of 144?",
+      "options": ["10", "12", "14", "16"],
+      "answer": 1,
+      "topic": "Math & Logic",
+      "explanation": "The square root of 144 is 12 because 12 × 12 = 144."
+    },
+    {
+      "id": 69,
+      "question": "If a train travels 60 km in 1 hour, how far will it travel in 3 hours?",
+      "options": ["60 km", "120 km", "180 km", "240 km"],
+      "answer": 2,
+      "topic": "Math & Logic",
+      "explanation": "At 60 km per hour, in 3 hours the train travels 60 × 3 = 180 km."
+    },
+    {
+      "id": 70,
+      "question": "What is the next number in the sequence: 2, 4, 8, 16...?",
+      "options": ["24", "30", "32", "36"],
+      "answer": 2,
+      "topic": "Math & Logic",
+      "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32."
+    },
+    {
+      "id": 71,
+      "question": "What is 15% of 80?",
+      "options": ["10", "12", "15", "20"],
+      "answer": 1,
+      "topic": "Math & Logic",
+      "explanation": "To find 15% of 80, multiply 80 by 0.15, which equals 12."
+    },
+    {
+      "id": 72,
+      "question": "If you have 3 apples and buy 5 more, then eat 2, how many do you have?",
+      "options": ["4", "5", "6", "7"],
+      "answer": 2,
+      "topic": "Math & Logic",
+      "explanation": "Start with 3, add 5 to get 8, then subtract 2 to get 6 apples remaining."
+    },
+    {
+      "id": 73,
+      "question": "What is the area of a rectangle with length 10 cm and width 5 cm?",
+      "options": ["30 cm²", "50 cm²", "75 cm²", "100 cm²"],
+      "answer": 1,
+      "topic": "Math & Logic",
+      "explanation": "Area of a rectangle = length × width = 10 × 5 = 50 cm²."
+    },
+    {
+      "id": 74,
+      "question": "What is 30% of 150?",
+      "options": ["30", "45", "60", "75"],
+      "answer": 1,
+      "topic": "Math & Logic",
+      "explanation": "To find 30% of 150, multiply 150 by 0.30, which equals 45."
+    },
+    {
+      "id": 75,
+      "question": "Who invented the light bulb?",
+      "options": ["Nikola Tesla", "Thomas Edison", "Alexander Bell", "Michael Faraday"],
+      "answer": 1,
+      "topic": "Technology & Inventions",
+      "explanation": "Thomas Edison developed the practical incandescent light bulb in 1879."
+    },
+    {
+      "id": 76,
+      "question": "In what year was the internet invented?",
+      "options": ["1969", "1989", "1999", "2009"],
+      "answer": 0,
+      "topic": "Technology & Inventions",
+      "explanation": "The internet began in 1969 as ARPANET, a military communication network."
+    },
+    {
+      "id": 77,
+      "question": "Who invented the telephone?",
+      "options": ["Nikola Tesla", "Alexander Graham Bell", "Samuel Morse", "Thomas Edison"],
+      "answer": 1,
+      "topic": "Technology & Inventions",
+      "explanation": "Alexander Graham Bell received the first telephone patent in 1876."
+    },
+    {
+      "id": 78,
+      "question": "What does 'GPS' stand for?",
+      "options": ["Global Positioning Service", "Global Position System", "Global Processing System", "General Positioning Signal"],
+      "answer": 1,
+      "topic": "Technology & Inventions",
+      "explanation": "GPS (Global Positioning System) uses satellites to determine location anywhere on Earth."
+    },
+    {
+      "id": 79,
+      "question": "Who invented the steam engine?",
+      "options": ["James Watt", "George Stephenson", "Isaac Newton", "Michael Faraday"],
+      "answer": 0,
+      "topic": "Technology & Inventions",
+      "explanation": "James Watt improved the steam engine in 1769, driving the Industrial Revolution."
+    },
+    {
+      "id": 80,
+      "question": "In what year was the first computer made?",
+      "options": ["1936", "1946", "1956", "1966"],
+      "answer": 1,
+      "topic": "Technology & Inventions",
+      "explanation": "The ENIAC, the first general-purpose electronic computer, was completed in 1946."
+    },
+    {
+      "id": 81,
+      "question": "Who invented the television?",
+      "options": ["John Logie Baird", "Guglielmo Marconi", "Thomas Edison", "Werner von Siemens"],
+      "answer": 0,
+      "topic": "Technology & Inventions",
+      "explanation": "John Logie Baird demonstrated the first television system in 1926."
+    },
+    {
+      "id": 82,
+      "question": "Which author wrote 'Harry Potter'?",
+      "options": ["Stephenie Meyer", "J.K. Rowling", "Rick Riordan", "Suzanne Collins"],
+      "answer": 1,
+      "topic": "Arts & Literature",
+      "explanation": "J.K. Rowling wrote the Harry Potter series, which became a global phenomenon."
+    },
+    {
+      "id": 83,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Christopher Marlowe", "William Shakespeare", "Ben Jonson", "John Milton"],
+      "answer": 1,
+      "topic": "Arts & Literature",
+      "explanation": "William Shakespeare wrote this tragic play about two star-crossed lovers in Verona, Italy."
+    },
+    {
+      "id": 84,
+      "question": "What is the famous painting 'Starry Night' by?",
+      "options": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Michelangelo"],
+      "answer": 2,
+      "topic": "Arts & Literature",
+      "explanation": "Vincent van Gogh painted 'Starry Night' in 1889, one of the most recognizable artworks in the world."
+    },
+    {
+      "id": 85,
+      "question": "Which composer wrote 'Moonlight Sonata'?",
+      "options": ["Wolfgang Mozart", "Ludwig van Beethoven", "Johann Bach", "Pyotr Tchaikovsky"],
+      "answer": 1,
+      "topic": "Arts & Literature",
+      "explanation": "Ludwig van Beethoven composed 'Moonlight Sonata' in 1801, a masterpiece of classical music."
+    },
+    {
+      "id": 86,
+      "question": "Who painted the 'Mona Lisa'?",
+      "options": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello"],
+      "answer": 2,
+      "topic": "Arts & Literature",
+      "explanation": "Leonardo da Vinci painted the Mona Lisa around 1503, which now hangs in the Louvre Museum."
+    },
+    {
+      "id": 87,
+      "question": "What type of book is 'The Hobbit'?",
+      "options": ["Romance", "Science fiction", "Fantasy", "Mystery"],
+      "answer": 2,
+      "topic": "Arts & Literature",
+      "explanation": "J.R.R. Tolkien's 'The Hobbit' is a fantasy novel about a hobbit's unexpected adventure."
+    },
+    {
+      "id": 88,
+      "question": "Which famous artist cut off part of his own ear?",
+      "options": ["Pablo Picasso", "Vincent van Gogh", "Jackson Pollock", "Andy Warhol"],
+      "answer": 1,
+      "topic": "Arts & Literature",
+      "explanation": "Vincent van Gogh cut off part of his ear in 1888 during a period of mental distress."
+    },
+    {
+      "id": 89,
+      "question": "What is the main ingredient in guacamole?",
+      "options": ["Lime", "Avocado", "Cilantro", "Tomato"],
+      "answer": 1,
+      "topic": "Food & Culture",
+      "explanation": "Guacamole is primarily made from mashed avocados, a fruit native to Mexico."
+    },
+    {
+      "id": 90,
+      "question": "Which country is famous for making pasta?",
+      "options": ["France", "Spain", "Italy", "Greece"],
+      "answer": 2,
+      "topic": "Food & Culture",
+      "explanation": "Italy is famous for pasta, which has been a staple food there for centuries."
+    },
+    {
+      "id": 91,
+      "question": "What is sushi?",
+      "options": ["Grilled fish", "Boiled vegetables", "Rice with fish and vegetables", "Fried noodles"],
+      "answer": 2,
+      "topic": "Food & Culture",
+      "explanation": "Sushi is a Japanese dish traditionally made with seasoned rice, raw fish, and vegetables."
+    },
+    {
+      "id": 92,
+      "question": "Which spice is the most expensive by weight?",
+      "options": ["Vanilla", "Saffron", "Cinnamon", "Turmeric"],
+      "answer": 1,
+      "topic": "Food & Culture",
+      "explanation": "Saffron is extremely expensive because each crocus flower produces only a tiny amount of the spice."
+    },
+    {
+      "id": 93,
+      "question": "What is tofu made from?",
+      "options": ["Wheat", "Soy beans", "Rice", "Chickpeas"],
+      "answer": 1,
+      "topic": "Food & Culture",
+      "explanation": "Tofu is made from soy beans and is a popular protein source in Asian cuisine."
+    },
+    {
+      "id": 94,
+      "question": "What is the capital of Spain?",
+      "options": ["Barcelona", "Madrid", "Valencia", "Seville"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "Madrid is Spain's capital and largest city, located in the center of the country."
+    },
+    {
+      "id": 95,
+      "question": "Which element is necessary for human respiration?",
+      "options": ["Nitrogen", "Carbon dioxide", "Oxygen", "Hydrogen"],
+      "answer": 2,
+      "topic": "Science",
+      "explanation": "Oxygen is essential for cellular respiration, the process that provides energy to our cells."
+    },
+    {
+      "id": 96,
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "options": ["Oxygen", "Argon", "Carbon dioxide", "Nitrogen"],
+      "answer": 3,
+      "topic": "Science",
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, while oxygen comprises about 21%."
+    },
+    {
+      "id": 97,
+      "question": "How many continents does the equator pass through?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "The equator passes through Africa, South America, and Asia as it circles the Earth."
+    },
+    {
+      "id": 98,
+      "question": "What is the smallest country in the world by area?",
+      "options": ["Monaco", "Vatican City", "Liechtenstein", "San Marino"],
+      "answer": 1,
+      "topic": "World Geography",
+      "explanation": "Vatican City is the smallest independent country, covering only about 0.44 square kilometers."
+    },
+    {
+      "id": 99,
+      "question": "How many years are in a millennium?",
+      "options": ["100 years", "500 years", "1000 years", "10000 years"],
+      "answer": 2,
+      "topic": "Math & Logic",
+      "explanation": "A millennium is a period of 1000 years; we entered the third millennium in the year 2001."
+    },
+    {
+      "id": 100,
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Mercury", "Earth", "Mars"],
+      "answer": 1,
+      "topic": "Space & Astronomy",
+      "explanation": "Mercury is the closest planet to the Sun and also the smallest planet in our solar system."
+    }
+  ]
+}
