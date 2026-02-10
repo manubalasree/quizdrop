@@ -17,7 +17,6 @@ The `samples/` folder includes ready-to-use question sets you can upload right a
 
 | File | Questions | Topics | Best For |
 |---|---|---|---|
-| `mini-med-school.json` | 100 | 29 medical topics | Kids interested in medicine & the human body |
 | `general-knowledge.json` | 100 | 10 (science, history, geography, etc.) | General study & curiosity building |
 
 Just upload any of these to get started. You can also create your own — see the format below.
