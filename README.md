@@ -30,6 +30,7 @@ Just upload any of these to get started. You can also create your own — see th
 - **Shuffle mode** — randomize question order each time
 - **Instant feedback** — correct/wrong shown immediately with an explanation
 - **Score breakdown by topic** — see which areas need more review
+- **Progress tracking** — last 5 quiz scores saved across sessions via localStorage
 - **Retry wrong answers** — one-click to drill only the ones missed
 - **Drag & drop** — drop a JSON file onto the upload area
 - **Works offline** — no server or internet needed
